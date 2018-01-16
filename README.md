@@ -1,5 +1,3 @@
-#ReactNative
-
 React Native
 
 Installation
@@ -17,19 +15,18 @@ To install the android studio, and run your first hello world program first read
 a.	React Native need NPM 4.X (current I have NPM 5.X on my machine, so I tried to uninstall the NPM5 and install NPM 4, but couldn’t succeed. Finally, I found out that installing yarn could solve the problem, Yarn installation is pretty straight forward, but read below for some short-cuts and cautions)
 2.	Caution 2 - Don’t use any other material for installing the Android studio… only use this youtube video https://www.youtube.com/watch?v=mkualZPRZCs. No other place you will find people telling you install yarn and npm tighter. (at least, I didn’t find anywhere)
 3.	Caution 3 -  If  you get error – “Could not find com.android.tools.build:gradle:3.0.1” == only Use this video - https://www.youtube.com/watch?v=Xjywi7DTMgw
-4.	Other dos and don’t
-  A.	Java installation - JDK 8 is compatible, and JDK 9 is not compatible. Remove JDK 9 and reinstall JDK8.
-  B.	Java installation – Use default locations for JDK and JRE. Don’t install it on any other drive. Somehow other locations seems bothersome for troubleshooting the installation issues.
-  C.	Pathon2 is needed. Don’t use Python 3.
-  D.	YARN installation seems MUST. NPM 4.0 version is needed for ReactNative (NPM 5.X is current and incompatible. And so it seems NPM can’t be used, so YERN is NEEDED)
-  E.	To install YARN, first you need to install (https://chocolatey.org ) – To install Chocolaty, use Windows MSI installer. Don’t use any other method, otherwise the installation hangs…
-  F.	Yarn installation is easy. You can use npm for that.
-  G.	Amazingly, yarn can run on Powershell. And Powershell worked for me better than cmd line
-  H.	Once you open the ReactNative app in android studio for the first time, it asks you if you want to upgrade to gradle 3.0.1 plugin. Don’t upgrade to gradle 3.0.1 plugin message when you install android studio. If you upgrade, ReactNative app will keep giving errors.
-  I.	Don’t use the create-react-native-app. Use react-native init AppName to create the react native app
-  J.	Environment variable for JAVA_HOME and PATH variable of Android studio needs to be added manually.
-  K.	When you are in visual studio code, use don’t use npm install commands to install the react-native packages and modules. Use yarn command such as yarn add ‘react-native’
-  L.	Android studio is good but the initial installation on windows 10 was very challenging. I had to uninstall Java (JDK) multiple times.
+1.	Java installation - JDK 8 is compatible, and JDK 9 is not compatible. Remove JDK 9 and reinstall JDK8.
+2.	Java installation – Use default locations for JDK and JRE. Don’t install it on any other drive. Somehow other locations seems bothersome for troubleshooting the installation issues.
+3.	Pathon2 is needed. Don’t use Python 3.
+4.	YARN installation seems MUST. NPM 4.0 version is needed for ReactNative (NPM 5.X is current and incompatible. And so it seems NPM can’t be used, so YERN is NEEDED)
+5.	To install YARN, first you need to install (https://chocolatey.org ) – To install Chocolaty, use Windows MSI installer. Don’t use any other method, otherwise the installation hangs…
+6.	Yarn installation is easy. You can use npm for that.
+7.	Amazingly, yarn can run on Powershell. And Powershell worked for me better than cmd line
+8.	Once you open the ReactNative app in android studio for the first time, it asks you if you want to upgrade to gradle 3.0.1 plugin. Don’t upgrade to gradle 3.0.1 plugin message when you install android studio. If you upgrade, ReactNative app will keep giving errors.
+9.	Don’t use the create-react-native-app. Use react-native init AppName to create the react native app
+10.	Environment variable for JAVA_HOME and PATH variable of Android studio needs to be added manually.
+11.	When you are in visual studio code, use don’t use npm install commands to install the react-native packages and modules. Use yarn command such as yarn add ‘react-native’
+12.	Android studio is good but the initial installation on windows 10 was very challenging. I had to uninstall Java (JDK) multiple times.
 
 Installation steps
 1.	Install JDK 8 (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html )
@@ -50,6 +47,4 @@ After you complete ALL the above steps, you are ready for actual running of the 
 
 
 Once you complete the above steps and successfully run the hello world program, you can start to learn React-Native
-
-
 
