@@ -1,5 +1,6 @@
 #ReactNative
 
+React Native
 
 Installation
 
@@ -49,5 +50,6 @@ After you complete ALL the above steps, you are ready for actual running of the 
 
 
 Once you complete the above steps and successfully run the hello world program, you can start to learn React-Native
+
 
 
