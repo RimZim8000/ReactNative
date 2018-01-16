@@ -2,7 +2,7 @@ React Native
 
 Installation
 
-To use a syntax such as  “react-native start” to run the first react-native app… similar to what we did in create-react-app, there are a lot of steps to be taken.
+To use a syntax such as  “react-native start” to run the first react-native app… similar to what we did in react start, there are a lot of steps to be taken.
 
 To run your first React-Native app you need to have a lot of patience
 (this tip is mainly for the people coming from Visual Studio Dev environment) 
